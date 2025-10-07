@@ -15,7 +15,7 @@ import WishList from "../Pages/WishList";
     children:[
       { 
         index: true,
-        loader:()=>fetch('/funitureData.json'),
+        loader:()=>fetch('./funitureData.json'),
         Component:Home,
         
       },
